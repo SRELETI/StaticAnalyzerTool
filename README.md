@@ -2,15 +2,15 @@
 
 #The program expects either 1 or 3 or 4 arguments.
 
-#First argument = Java source file 
+*First argument = Java source file *
 
-#Second argument =  Support value
+*Second argument =  Support value*
 
-#Third argument = Confidence
+*Third argument = Confidence*
 
-#Fourth argument = Depth of inter procedural analysis
+*Fourth argument = Depth of inter procedural analysis*
 
-
+'''
 if [ ! $# -eq 1 ] && [ ! $# -eq 3 ] && [ ! $# -eq 4 ]
 	then
 		echo "Incorrect number of arguments"
@@ -29,3 +29,4 @@ elif [ $# -eq 1 ]
 	then
 		java -Xmx128M -cp `dirname ${BASH_SOURCE[0]}` LikelyInvariants callgraph.tmp 3 65 2>/dev/null
 fi
+'''
