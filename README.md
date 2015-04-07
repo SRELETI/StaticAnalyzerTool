@@ -1,14 +1,14 @@
 # StaticAnalyzerTool
 
-The program expects either 1 or 3 or 4 arguments.
+#The program expects either 1 or 3 or 4 arguments.
 
-First argument = Java source file 
+#First argument = Java source file 
 
-Second argument =  Support value
+#Second argument =  Support value
 
-Third argument = Confidence
+#Third argument = Confidence
 
-Fourth argument = Depth of inter procedural analysis
+#Fourth argument = Depth of inter procedural analysis
 
 
 if [ ! $# -eq 1 ] && [ ! $# -eq 3 ] && [ ! $# -eq 4 ]
