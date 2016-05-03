@@ -10,7 +10,7 @@
 
 *Fourth argument = Depth of inter procedural analysis*
 
-'''
+```
 if [ ! $# -eq 1 ] && [ ! $# -eq 3 ] && [ ! $# -eq 4 ]
 
 	then
@@ -42,4 +42,10 @@ elif [ $# -eq 1 ]
 		java -Xmx128M -cp `dirname ${BASH_SOURCE[0]}` LikelyInvariants callgraph.tmp 3 65 2>/dev/null
 
 fi
-'''
+```
+
+## Contact
+
+[![Sudeep Reddy Eleti](https://s.gravatar.com/avatar/a48e3b49c8c1dbe4b1d5128493ee6fa3?s=80)](https://github.com/SRELETI)
+
+[Sudeep Reddy Eleti](https://github.com/SRELETI)
